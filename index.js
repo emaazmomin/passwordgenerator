@@ -67,25 +67,11 @@ function show() {
 }
 // let copbtn = document.getElementById('btn2');
 //Function to copy the text to clipboard
-function func1(){
-    navigator.clipboard.writeText(display.innerHTML);
+function copyMyText(){
+    navigator.clipboard.writeText(display.innerText);
     alert("The Password is copied to clipboard");
 }
 
-function copyMyText() {
-    // Get the text field
-    let copyText = document.getElementById("showpass");
-  
-    // Select the text field
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
-    navigator.clipboard.writeText(copyText.value);
-  
-    // Alert the copied text
-    alert("Copied the text: " + copyText.value);
-  }
 
 //Function to clear the page
 function clearform(){
