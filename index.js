@@ -48,19 +48,19 @@ function show() {
     
     if(result1 == null|| result2==null || result3 == null || result4== null){
         strength.innerHTML ="Very Good" 
-        console.log("Very Good");
+        // console.log("Very Good");
     }
     else if((result1 == null|| result2==null || result3 == null || result4== null)&&(result1 == null|| result2==null || result3 == null || result4== null)){
         strength.innerHTML ="Good"; 
-        console.log("Good");
+        // console.log("Good");
     }
     else if((result1 == null|| result2==null || result3 == null || result4== null) &&(result1 == null|| result2==null || result3 == null || result4== null)&&(result1 == null|| result2==null || result3 == null || result4== null)){
         strength.innerHTML ="Poor"; 
-        console.log("Poor")
+        // console.log("Poor")
     }
     else{
         strength.innerHTML ="Excellent"; 
-        console.log("Excellent");
+        // console.log("Excellent");
     }
     len.value = "";
     }    
@@ -71,6 +71,21 @@ function func1(){
     navigator.clipboard.writeText(display.innerHTML);
     alert("The Password is copied to clipboard");
 }
+
+function copyMyText() {
+    // Get the text field
+    let copyText = document.getElementById("showpass");
+  
+    // Select the text field
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+  
+     // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText.value);
+  
+    // Alert the copied text
+    alert("Copied the text: " + copyText.value);
+  }
 
 //Function to clear the page
 function clearform(){
