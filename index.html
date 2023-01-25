@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="body">
+        <h1>WELCOME TO PASSWORD GENERATOR</h1>
+        <div id="leninp">
+            <h5>Password length: <input type="text" id="inp" placeholder="min. 8"></h5>
+        </div>
+            <button id="btn">Generate Password</button><br>
+        <div id="pass">
+            <h5>Password: <span id="showpass"></span><br>
+            </div>
+            <button id="btn2" onclick="func1()">Copy Password</button></h5><br>
+        <div id="strength">
+
+            <h5>Strength : <span id="showstren"></span></h5>
+        </div>
+        <!-- Strength Reason : <span id="showres"></span> -->
+        <div id="clearform">
+            <button onclick="clearform()" id="btn3">RESET</button>
+        </div>
+    </div><br>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css">
+</body>
+</html>

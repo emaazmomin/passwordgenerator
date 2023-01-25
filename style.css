@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+#body{
+    background-color: rgb(72, 174, 174);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    height: 469px;
+    width: 400px;
+    padding-top: 30px;
+    margin-top: 69px;
+}
+#pass,#leninp,#strength{
+    border: 2px solid black;
+    font-size: 20px;
+    margin-top: 30px;
+    background-color: rgb(75, 134, 114);
+    /* text-align: left; */
+}
+#inp{
+    border-radius:10px ;
+    width: 40px;
+    background-color: black;
+    color: white;
+}
+#btn{
+    padding: 2px;
+    margin-top: 5px;
+    width: 150px;
+    border-radius:5px ;
+    background-color: rgb(74, 145, 158);
+    color: white;
+    font-size:15px ;
+    margin-bottom: 10px;
+}
+#btn:hover{
+    background-color: rgb(76, 122, 146);
+    color: black;
+}
+#btn:active{
+    background-color: rgb(44, 168, 217);
+    color: black;  
+}
+h5{
+    font-size: 20px;
+}
+#showpass{
+    color: rgb(161, 181, 131);
+    /* width: 1400px; */
+}
+#pass{
+    width: 400px;
+    text-align: left;
+}
+#showstren{
+    color: rgb(198, 206, 169) ;
+}
+#leninp{
+    /* align-items: left; */
+    text-align: left;
+    width: 400px;
+    margin-top: 57px;
+    /* background-color: black; */
+    /* color: white; */
+}
+#btn2{
+    background-color: rgb(50, 101, 101);
+    border: 2px solid rgb(48, 73, 106);
+    border-radius: 2px;
+    /* background-color: rgb(73, 88, 83); */
+    /* margin-left: 337px; */
+    /* text-align: left; */
+}
+#btn2:hover{
+    color: white;
+}
+#btn2:active{
+    color: rgb(139, 217, 144);
+}
+#strength{
+    width: 400px;
+    text-align: left;
+}
+#clearform{
+    margin-top: 74px;
+}
+#btn3{
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(88, 126, 159);
+    border: rgb(88, 126, 159);
+    color: rgb(60, 60, 84);
+}
+#btn3:hover{
+    color: rgb(23, 23, 24);
+    background-color: rgb(189, 211, 231);
+}
+#btn3:active{
+    color: rgb(232, 232, 238);
+    background-color: rgb(83, 95, 107);
+
+}
